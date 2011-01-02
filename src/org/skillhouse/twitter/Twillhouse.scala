@@ -56,6 +56,7 @@ object Twillhouse {
 
 		var line = ""
         println("\nWelcome to Twillhouse -- the Skillhouse Twitter signin utility\n")
+        println("--- Fork me from https://github.com/martinb3/Twillhouse ---\n")
         
 		while ({line = reader.readLine("Please enter a command: "); line != null}) {
             flush();
